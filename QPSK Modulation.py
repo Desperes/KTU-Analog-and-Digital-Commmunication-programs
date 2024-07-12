@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import erfc
+import random
 N=10**5
 bit_stream=np.random.randint(0,2,N)
 L=16;Eb=2;Ts=2
