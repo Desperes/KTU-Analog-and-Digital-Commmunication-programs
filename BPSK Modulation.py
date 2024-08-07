@@ -36,7 +36,6 @@ plt.figure(3)
 plt.title("bit error rate vs snr")
 plt.semilogy(Snr_db,ber_calc)
 plt.semilogy(Snr_db,ber_values,linestyle="",marker='*')
-
 plt.show()
     
         
